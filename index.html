@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZULTRA</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> 
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/png">
+</head>
+
+<body>
+
+  <!-- Хидер с менюшкой-->
+  
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>ZULTRA</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Description" onclick="slowScroll('#main')">DESCRIPTION</a>
+      <a href="#" onclick="slowScroll('#games')" title="Games">GAMES</a>
+      <a href="#" onclick="slowScroll('#stuff')" title="CreatedBy">CREATED BY</a>
+      <!--<a href="#" onclick="slowScroll('#contacts')" title="Contacts">CONTACTS</a>-->
+    </div>
+  </header>
+
+  <!-- Фон и неоновая надпись -->
+  
+  <div id="top">
+    <!--<h1>MINI GAMES</h1>
+    <h3>WORLD</h3>-->
+    <h1 class="neon" data-text="ZULTRA">ZULTRA</h1>
+  </div>
+
+  <!-- Описание сайта -->
+
+  <div id="main">
+    <div class="intro">
+      <h1>ZULTRA</h1>
+      <p class="obtek">is a great way to have fun and interestingly spend your free time. In our project, You will find best and captivating mini-games. What coulb be better than a cup of aromatic tea and games when the weather is gloomy and dull outside the window! You won't be bored with Us! Plunge into the fantastic world of mini games, where in five minutes you will get a charge of fun and great mood for the whole day!</p>
+    </div>
+  </div>
+
+  <!-- Блок с играми -->
+
+  <div id="games">
+    <div class="gameset">
+      <h1 class="heading">Game Catalog</h1>
+      <div class="game-wrapper">
+        
+        <div class="gameblock">
+          <img src="img/snakeimg.png" alt="game image" class="game-img">
+          <h1 class="game-name">Snake</h1>
+          <p class="game-descr">The classic Snake game! It's so simple and easy to play. Touch the play button and start the fun! Be careful in touching the snake's tail and avoid hitting the wall.</p>
+          <a href="html/snake.html" class="game-button">PLAY</a>
+        </div>
+
+        <div class="gameblock">
+          <img src="" alt="game image" class="game-img">
+          <h1 class="game-name">Game</h1>
+          <p class="game-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat aliquid, ad eius maiores ipsa earum. Quia totam commodi atque?</p>
+          <a href="#" class="game-button">PLAY</a>
+        </div>
+
+        <div class="gameblock">
+          <img src="" alt="game image" class="game-img">
+          <h1 class="game-name">Game</h1>
+          <p class="game-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quas a et quaerat accusamus obcaecati blanditiis quam, cupiditate aliquid porro.</p>
+          <a href="#" class="game-button">PLAY</a>
+        </div>
+
+        <div class="gameblock">
+          <img src="" alt="game image" class="game-img">
+          <h1 class="game-name">Game</h1>
+          <p class="game-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quae possimus optio hic asperiores nostrum iure repellendus non molestias sequi!</p>
+          <a href="#" class="game-button">PLAY</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Карточки команды -->
+
+  <section id="stuff">
+  
+  <div class="container">
+    
+    <h1 class="heading">ZULTRA</h1>
+    <h3 class="podheading">was created by</h3>
+    <div class="card-wrapper">
+      
+      <div class="card">
+        <img src="img/backgroundimagecard.jpeg" alt="card background" class="card-img">
+        <img src="img/ilshat_ava.png" alt="profile image" class="profile-img">
+          <h1>Ilshat Niyazov</h1>
+            <p class="job-title">Web Developer</p>
+              <p class="about">Ala-Too University 3rd course Student of Computer Science Department. Front-End Developer</p>
+        <a href="#" class="btn">CONTACT</a>
+        <ul class="social-media">
+          <li><a href="https://www.facebook.com/ilshat.niyazov" class="fab fa-facebook-square"></a></li>
+          <li><a href="https://vk.com/ravenrow" class="fab fa-vk"></a></li>
+          <li><a href="https://t.me/RavenRow" class="fab fa-telegram"></a></li>
+          <li><a href="mailto:ilshat.niyazov@iaau.edu.kg" class="fab fa-google"></a></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <img src="img/backgroundimagecard.jpeg" alt="card background" class="card-img">
+        <img src="img/ayperi_ava.png" alt="profile image" class="profile-img">
+          <h1>Ayperi Osmonaalieva</h1>
+            <p class="job-title">Web Developer</p>  
+              <p class="about">Student at Ala-Too International University. A quiet introvert who dreams of becoming a teacher and mentor for  future students.</p>
+        <a href="#" class="btn">CONTACT</a>
+        <ul class="social-media">
+          <!--<li><a href="#" class="fab fa-facebook-square"></a></li>
+          <li><a href="#" class="fab fa-twitter-square"></a></li>-->
+          <li><a href="https://instagram.com/89_091o?igshid=l5hlaan2wq52" class="fab fa-instagram"></a></li>
+          <li><a href="mailto:aiperi.osmonaalieva@iaau.edu.kg" class="fab fa-google"></a></li>
+        </ul>
+    </div>
+
+    </div>
+  </div>
+ </section>
+
+  <!-- Скрипты -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
