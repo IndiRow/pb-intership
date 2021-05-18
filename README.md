@@ -12,7 +12,7 @@ and if you don’t want to play, you can watch the fireflies flying, it’s very
 • Installed Visual Studio Code  
 • Browser that you like
 ## Langueges used
-• PHP  
+• JavaScript  
 • HTML  
 • CSS  
 ## Features 
